@@ -13,7 +13,7 @@ Antes de instalar o Python, verifique se ele já está presente no seu sistema:
    2. Digite o seguinte comando e pressione Enter:
 
       ```bash
-      python --version
+      py --version
       ```
 
    3. Se o Python estiver instalado, a versão instalada será exibida (ex: `Python 3.9.7`). Caso contrário, siga os passos de instalação abaixo.
