@@ -124,6 +124,31 @@ Isso imprime a matriz em um formato mais organizado, assim:
 7 8 9
 ```
 
+## Manipulando Matrizes com Laços de Repetição
+
+Em uma matriz, temos que lidar com `linhas` e `colunas`, o que geralmente exige o uso de laços `for` aninhados.
+
+### Exemplo: Modificando Cada Elemento da Matriz
+
+Suponha que queremos adicionar `1` a cada elemento da matriz. Podemos fazer isso percorrendo cada linha e coluna com dois laços `for` aninhados:
+
+```python
+matriz = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+# Percorrendo cada linha e cada coluna
+for i in range(len(matriz)):            # Percorre as linhas
+    for j in range(len(matriz[i])):     # Percorre as colunas dentro da linha
+        matriz[i][j] += 1               # Soma 1 ao valor do elemento atual
+
+# Exibindo a matriz modificada
+for linha in matriz:
+    print(linha)
+```
+
 ## Exercícios Práticos
 
 1. **Multiplicação de Matrizes Simples**: Multiplique cada número de uma matriz 2x2 por um valor específico e imprima a matriz resultante.
