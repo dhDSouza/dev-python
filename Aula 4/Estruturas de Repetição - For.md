@@ -177,6 +177,6 @@ for i in range(1, 11):
 
 4. **Tabuada:** Crie um programa que recebe um número do usuário e imprime a tabuada desse número de 1 a 10.
 
-5. **Percorrendo Listas de Nomes:** Faça um programa que peça ao usuário para inserir 5 nomes em uma lista e, em seguida, use um laço `for` para exibir cada nome da lista.
+5. **(DESAFIO) Percorrendo Listas de Nomes:** Faça um programa que peça ao usuário para inserir 5 nomes em uma lista e, em seguida, use um laço `for` para exibir cada nome da lista.
 
-6. **Matriz:** Crie um programa que imprime uma matriz 3x3 de números (de 1 a 9) usando dois laços `for` aninhados.
+6. **(DESAFIO) Matriz:** Crie um programa que imprime uma matriz 3x3 de números (de 1 a 9) usando dois laços `for` aninhados.
