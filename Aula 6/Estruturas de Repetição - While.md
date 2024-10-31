@@ -77,11 +77,23 @@ while contador <= 5:
    - O usuário pode colocar ou retirar quantas vezes quiser, mas o programa deve impedir retiradas que deixem o saldo negativo.
    - O loop termina quando o usuário digita "sair".
 
-7. **Sorteio de Números**
+7. **Sorteio de Números com Pontuação**
 
-   - Crie um programa que sorteia números entre 1 e 100 e pergunta ao usuário se ele quer continuar ou parar.
-   - Se o usuário digitar “parar” e o número sorteado for `par`, ele ganha um ponto. Caso contrário, ele perde um ponto.
-   - O programa termina se o usuário digitar “parar” ou com um número impar sorteado.
+   Crie um programa que simula um jogo onde números aleatórios entre 1 e 100 são sorteados a cada rodada.
+
+   - O programa sorteia um número **(sem mostrá-lo imediatamente ao usuário)**.
+   - O usuário decide se quer `"continuar"` ou `"parar"`:
+
+      - Se escolher **parar**, o jogo exibe a mensagem "Você desistiu do jogo com uma pontuação final de X", onde X é a pontuação atual, e o jogo termina.
+      - Se o usuário optar por **continuar**, o programa verifica se o número sorteado é `par` ou `ímpar`:
+
+         - **Número par**: o jogador ganha 1 ponto, e o programa exibe o número sorteado e a mensagem `"Parabéns! Você ganhou 1 ponto. Pontuação atual: X."`
+         - **Número ímpar**: o jogador perde 1 ponto, e o programa exibe o número sorteado e a mensagem `"Que pena! Você perdeu 1 ponto. Pontuação atual: X."`
+
+   - O jogo continua até que:
+
+      - O usuário escolha `parar` ou
+      - A pontuação do jogador chegue a `-1`, caso em que o jogo exibe **"Você perdeu!"**
 
 8. **Histórico de Mensagens em um Chat**
 
