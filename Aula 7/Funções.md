@@ -181,16 +181,74 @@ print(contar_ocorrencias(texto, "Python"))  # Saída: 2
 
 ## Exercícios Práticos
 
-### Exercícios Fáceis
+### Exercícios Revisados
 
-1. **Saudação Personalizada**
-   - Crie uma função chamada `saudacao` que recebe um nome e exibe uma mensagem de boas-vindas com esse nome.
+1. **Saudação Personalizada com Hora do Dia**
+   - Crie uma função chamada `saudacao_horario` que recebe um nome e a hora atual (em formato 24 horas, como um número inteiro). A função deve exibir uma mensagem de boas-vindas com o nome e a saudação apropriada de acordo com a hora:
+     - "Bom dia" para horas entre 5 e 12,
+     - "Boa tarde" para horas entre 12 e 18,
+     - "Boa noite" para horas entre 18 e 5.
 
-2. **Multiplicação Simples**
-   - Escreva uma função `multiplicar` que receba dois números e retorne o produto deles.
+   - **Exemplo:**
 
-3. **Cálculo de Média**
-   - Crie uma função chamada `calcular_media` que recebe uma lista de números e retorna a média deles.
+   ```python
+   saudacao_horario("Daniel", 14)  # Saída: "Boa tarde, Daniel!"
+   ```
 
-4. **Verificar Palíndromo (Desafio)**
-   - Escreva uma função `palindromo` que verifica se uma palavra ou frase é um palíndromo (lê-se igual de trás para frente, ignorando espaços).
+2. **Calculadora com Lista de Operações**
+    - Escreva uma função `calculadora_avancada` que receba dois números e uma lista de operações (ex: `["soma", "multiplicacao"]`). A função deve aplicar cada operação da lista aos números e retornar uma nova lista com os resultados das operações realizadas. As operações válidas são: soma, subtração, multiplicação e divisão (com verificação de divisão por zero).
+
+    - **Exemplo:**
+
+    ```python
+    calculadora_avancada(10, 2, ["soma", "divisao", "subtracao"]) # Saída: [12, 5.0, 8]
+    ```
+
+3. **Cálculo de Média com Filtragem**
+    - Crie uma função `calcular_media_positiva` que recebe uma lista de números (inteiros e/ou decimais) e calcula a média apenas dos valores positivos. A função deve ignorar valores negativos e zeros. Caso a lista tenha apenas números negativos ou zeros, a função deve retornar uma mensagem indicando que não há valores positivos para calcular a média.
+
+    - **Exemplo:**
+
+    ```python
+    calcular_media_positiva([-3, 4, 7, 0, -5, 10])  # Saída: 7.0
+    ```
+
+4. **Contador de Vogais em Frases**
+    - Escreva uma função chamada `contar_vogais` que recebe uma frase e retorna um dicionário com a contagem de cada vogal na frase. O dicionário deve conter as vogais como chaves (`'a', 'e', 'i', 'o', 'u'`) e o número de ocorrências de cada uma como valores. A função deve ignorar maiúsculas/minúsculas.
+
+    - **Exemplo:**
+
+    ```python
+    contar_vogais("Aprender Python é ótimo!") # Saída: {'a': 1, 'e': 3, 'i': 1, 'o': 2, 'u': 0}
+    ```
+
+5. **Verificador de Palíndromo com Filtragem de Caracteres**
+    - Escreva uma função `palindromo_avancado` que verifica se uma palavra ou frase é um palíndromo. A função deve ignorar espaços, acentos e pontuações. Dica: use uma lista ou função auxiliar para filtrar os caracteres antes de verificar se é um palíndromo.
+
+    - **Exemplo:**
+
+    ```python
+    palindromo_avancado("A man, a plan, a canal, Panama!")  # Saída: True
+    ```
+
+6. **Filtragem de Números Ímpares em uma Faixa**
+    - Crie uma função chamada `impares_na_faixa` que recebe dois números inteiros, `inicio` e `fim`, e retorna uma lista com todos os números ímpares nesse intervalo (incluindo `inicio` e `fim` se forem ímpares). Use uma estrutura de repetição para construir a lista.
+
+    - **Exemplo:**
+
+    ```python
+    impares_na_faixa(3, 10)  # Saída: [3, 5, 7, 9]
+    ```
+
+7. **Classificação de Idades em Categorias**
+    - Escreva uma função `classificar_idades` que recebe uma lista de idades e retorna um dicionário com a quantidade de pessoas em cada categoria:
+        - "Criança" para idades de 0 a 12 anos,
+        - "Adolescente" para idades de 13 a 17,
+        - "Adulto" para idades de 18 a 64,
+        - "Idoso" para idades de 65 ou mais.
+
+    - **Exemplo:**
+
+    ```python
+    classificar_idades([3, 14, 20, 67, 8, 33, 73, 17]) # Saída: {'Criança': 2, 'Adolescente': 2, 'Adulto': 2, 'Idoso': 2}
+    ```
