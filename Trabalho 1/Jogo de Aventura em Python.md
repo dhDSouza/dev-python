@@ -98,6 +98,14 @@ Você vai criar um jogo interativo de aventura no qual o jogador assume o papel 
 - O código Python completo com os requisitos acima implementados.
 - Um relatório explicando como o jogo funciona e como cada parte do código foi implementada.
 
+**Forma de Entrega:**
+
+- Compacte o código e o relatório, em uma pasta zipada `(.zip)` renomeie a pasta para `"Trabalho 1 Python - <seu nome completo>"`.
+- Envie a pasta zipada por e-mail para [dhs.danielsouza@gmail.com](dhs.danielsouza@gmail.com).
+- Coloque no assunto do e-mail: `Trabalho 1 Python - <seu nome completo>`
+
+**`ATENÇÃO! O PRAZO DE ENTREGA É ATÉ DIA 11/11 (SEGUNDA-FEIRA)`**
+
 **Critérios de Avaliação:**
 - Funcionalidade: O jogo funciona conforme descrito, com diferentes possibilidades e um final condicional.
 - Uso correto de variáveis, tipos de dados, estruturas de repetição, condicionais, listas e funções.
