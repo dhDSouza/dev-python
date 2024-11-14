@@ -135,15 +135,15 @@ Neste exemplo, tanto `Goku` quanto `Thor` têm o mesmo método `ataque_especial`
 
 ## Exercício Prático
 
-1. **Desafio de Encapsulamento:** Crie uma classe `SegredoDoHerói` que possui um atributo privado `identidade_secreta`. Implemente métodos para acessar e modificar a identidade secreta de forma controlada.
+1. **Desafio de Encapsulamento:** Crie uma classe `SegredoDoHerói` que possui um atributo **privado** `identidade_secreta`. Implemente métodos para acessar e modificar a identidade secreta de forma controlada.
 
 2. **Desafio de Herança e Polimorfismo:** Crie uma classe `SerVivo` com um método `interagir`. Em seguida, crie subclasses como `Hobbit`, `Orc` e `Mago` que herdam de `SerVivo`, implementando interagir de formas distintas (ex.: Hobbits são amigáveis, Orcs são agressivos, Magos usam feitiços). Acrescentem também habilidades únicas para cada tipo de `SerVivo` (ex.: Hobbits se escondem, Orcs atacam com fúria, Magos teletransportam).
 
 3. **Desafio Conta Bancária**
 
-- Crie uma classe chamada ContaBancaria com o atributo privado saldo crie métodos para depositar e sacar.
-- 
-- Crie um método para trasnferência entre contas, crie duas contas e teste a transferência entre elas.
+- Crie uma classe chamada `ContaBancaria` com o atributo **privado** `saldo` crie métodos para `depositar` e `sacar`.
+
+- Crie um método para `trasnferência` entre contas, crie duas contas e teste a transferência entre elas.
 
 ## Conclusão
 
