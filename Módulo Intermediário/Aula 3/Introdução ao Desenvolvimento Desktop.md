@@ -23,7 +23,7 @@ Ambientes virtuais são espaços isolados onde você pode instalar pacotes espec
 1. **Criar o ambiente virtual**:
 
    ```bash
-   python3 -m venv nome_do_ambiente
+   py -m venv nome_do_ambiente
    ```
 
 2. **Ativar o ambiente**:
@@ -53,13 +53,13 @@ No Python, usamos o **pip** (Python Package Installer) para instalar bibliotecas
 **Usando o pip para instalar pacotes:**
 
 ```bash
-pip install nome_da_biblioteca
+py - m pip install nome_da_biblioteca
 ```
 
 **Exemplo**: Para instalar o **Tkinter** (em sistemas onde não vem por padrão):
 
 ```bash
-pip install tk
+py -m pip install tk
 ```
 
 **Uso do Pop**: O `pop` é um gerenciador de pacotes mais recente e promete uma maneira mais eficiente de instalar pacotes Python, com algumas melhorias em relação ao pip. Ele é útil, mas ainda não é amplamente utilizado como o pip.
