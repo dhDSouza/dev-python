@@ -123,6 +123,6 @@ Crie um aplicativo onde o usuário possa:
 
 >[!TIP]
 >
->Use listas para armazenar os dados.
->Exiba os Pokémons em um <code>ttk.Treeview</code> (uma tabela).
+>Use listas para armazenar os dados. Exiba os Pokémons em um <code>ttk.Treeview</code> (uma tabela).
+>
 >Para mais informações acesse: <a href="./Listbox e Treeview.md">Tutorial de Listbox e Treeview.</a>
