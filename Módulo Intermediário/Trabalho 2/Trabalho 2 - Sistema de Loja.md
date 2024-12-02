@@ -116,7 +116,7 @@ Você irá criar um programa que simula o funcionamento básico de um sistema de
 3. **🖼️ Interface Gráfica:**
 
    - A interface deve ser funcional e intuitiva.  
-   - Deve permitir navegar entre as funcionalidades de forma fácil.  
+   - Deve permitir navegar entre as funcionalidades de forma fácil.
 
 ---
 
@@ -148,3 +148,12 @@ class Loja:
     def exibir_produtos(self):
         return [produto.exibir_detalhes() for produto in self.produtos]
 ```
+
+>[!WARNING]
+><h3><strong>📅 Prazo de Entrega</strong></h3>
+>
+><p>O trabalho deve ser entregue até <em><strong>(02/11/2024)</strong></em>, em formato zipado <em><strong>(.zip)</strong></em> e enviado por e-mail.</p>
+>
+><p>Envie para <a href="mailto:dhs.danielsouza@gmail.com">dhs.danielsouza@gmail.com</a>.</p>
+>
+>Coloque no assunto <strong>Trabalho 2 Python - "nome completo"</strong>.
