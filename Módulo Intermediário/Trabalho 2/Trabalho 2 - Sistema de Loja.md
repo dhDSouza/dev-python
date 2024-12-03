@@ -152,7 +152,7 @@ class Loja:
 >[!WARNING]
 ><h3><strong>📅 Prazo de Entrega</strong></h3>
 >
-><p>O trabalho deve ser entregue até <em><strong>(03/11/2024)</strong></em>, em formato zipado <em><strong>(.zip)</strong></em> e enviado por e-mail.</p>
+><p>O trabalho deve ser entregue até <em><strong>(03/12/2024)</strong></em>, em formato zipado <em><strong>(.zip)</strong></em> e enviado por e-mail.</p>
 >
 ><p>Envie para <a href="mailto:dhs.danielsouza@gmail.com">dhs.danielsouza@gmail.com</a>.</p>
 >
