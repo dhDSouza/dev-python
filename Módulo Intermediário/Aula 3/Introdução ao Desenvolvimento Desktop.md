@@ -46,7 +46,7 @@ Ambientes virtuais são espaços isolados onde você pode instalar pacotes espec
    deactivate
    ```
 
-## Bibliotecas e Gerenciador de Pacotes (pip e pop)
+## Bibliotecas e Gerenciador de Pacotes (pip)
 
 No Python, usamos o **pip** (Python Package Installer) para instalar bibliotecas que permitem adicionar funcionalidades extras às nossas aplicações. Por exemplo, se queremos trabalhar com interface gráfica, podemos instalar o **Tkinter** (que já vem com o Python) ou outras bibliotecas como o **PyQt**.
 
@@ -61,8 +61,6 @@ py - m pip install nome_da_biblioteca
 ```bash
 py -m pip install tk
 ```
-
-**Uso do Pop**: O `pop` é um gerenciador de pacotes mais recente e promete uma maneira mais eficiente de instalar pacotes Python, com algumas melhorias em relação ao pip. Ele é útil, mas ainda não é amplamente utilizado como o pip.
 
 ## Criando uma Interface Gráfica com Tkinter
 
