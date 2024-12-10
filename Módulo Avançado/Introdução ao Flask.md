@@ -150,22 +150,48 @@ Flask é importante por vários motivos:
 
 Agora que você já aprendeu o básico sobre Flask, que tal praticar? Aqui vão alguns exercícios para você consolidar o conhecimento.
 
-### Exercício 1: "Minha Primeira Rota"
+### **Exercício 1: "Página Inicial Personalizada"**
 
-1. Crie uma aplicação Flask simples que exibe a mensagem `"Bem-vindo ao Flask!"` na página inicial (`/`).
-2. Teste acessando `http://127.0.0.1:5000/` no seu navegador.
+Crie uma aplicação Flask com as seguintes funcionalidades:
 
-### Exercício 2: "Saudação Personalizada"
+1. Na página inicial (`/`), exiba a mensagem: `"Bem-vindo ao Meu Site!"` e inclua um link que leve a uma nova rota chamada `/sobre`.
+2. Na rota `/sobre`, exiba uma descrição do site, como: `"Este site foi criado para aprender Flask!"`.
 
-1. Crie uma rota `/saudacao/<nome>` que exibe a mensagem `"Olá, <nome>!"` quando alguém acessar essa URL. Exemplo: `http://127.0.0.1:5000/saudacao/Alice`.
+### **Exercício 2: "Mensagem Dinâmica"**
 
-### Exercício 3: "Formulário de Contato"
+Crie uma rota chamada `/mensagem/<frase>` que aceita uma frase como parâmetro da URL e exibe essa frase de volta. 
+- Exemplo: Ao acessar `http://127.0.0.1:5000/mensagem/Flask é legal`, deve ser exibido na tela: `"Flask é legal!"`.
 
-1. Crie uma página com um formulário simples que peça o nome e o e-mail de uma pessoa. Quando o formulário for enviado, exiba os dados que foram preenchidos.
+### **Exercício 3: "Formulário de Feedback"**
 
-### Exercício 4: "Template de Boas-Vindas"
+Crie uma página com um formulário que permita o usuário enviar seu **nome** e um **feedback** (mensagem). Quando o formulário for enviado:
 
-1. Crie um template HTML que exiba uma saudação personalizada para um nome recebido pela URL. Exemplo: `http://127.0.0.1:5000/user/Alice`.
+1. Exiba uma mensagem de agradecimento como: `"Obrigado, <nome>, pelo seu feedback!"`.
+2. Mostre o feedback enviado pelo usuário.
+
+### **Exercício 4: "Contador de Visitas"**
+
+Implemente um contador simples que rastreie o número de vezes que a página inicial (`/`) foi acessada.
+1. Mostre a contagem de visitas na própria página inicial.
+2. Reinicie a contagem quando o servidor for reiniciado.
+
+>[!TIP]
+>Use uma variável global para rastrear o número de visitas.
+
+### **Exercício 5: "Lista de Tarefas"**
+
+Crie uma pequena aplicação de "Lista de Tarefas" com duas rotas:
+
+1. Uma rota `/nova-tarefa` que exiba um formulário para adicionar uma nova tarefa.
+2. Uma rota `/tarefas` que exiba todas as tarefas adicionadas.
+
+>[!TIP] 
+>Armazene as tarefas em uma lista na memória.
+
+### **Exercício 6: "Página de Cores"**
+
+Crie uma rota `/cor/<nome_cor>` que exibe uma página com o fundo pintado na cor especificada pelo parâmetro da URL.
+- Exemplo: Ao acessar `http://127.0.0.1:5000/cor/vermelho`, o fundo da página deve ficar vermelho, e a mensagem exibida deve ser `"Você escolheu a cor: vermelho"`.
 
 ## **Referências e Recursos 🔗**
 
@@ -176,8 +202,6 @@ Aqui estão algumas fontes para você se aprofundar no Flask:
 - **Tutorial do Real Python**: [https://realpython.com/tutorials/flask/](https://realpython.com/tutorials/flask/)
 
 - **Flask Mega-Tutorial (Miguel Grinberg)**: [https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i)
-
-- **Fórum do Flask (Pallets Projects)**: [https://discuss.palletsprojects.com/c/flask/](https://discuss.palletsprojects.com/c/flask/)
 
 - **GitHub - Exemplos de Flask**: [https://github.com/pallets/flask/tree/main/examples](https://github.com/pallets/flask/tree/main/examples)
 
