@@ -194,3 +194,7 @@ def dashboard():
 **Explicação:**
 - **`flash('Bem-vindo ao site!')`**: Envia uma mensagem flash.
 - **`get_flashed_messages()`**: Recupera e exibe as mensagens flash.
+
+## Exercícios
+
+- Coloque em prática o que aprendemos com os [exercícios](./Exercícios.md).
